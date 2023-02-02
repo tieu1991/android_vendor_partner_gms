@@ -11,7 +11,7 @@ Example manifest:
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-    <project path="vendor/partner_gms" name="lineageos4microg/android_vendor_partner_gms" remote="github" revision="master" />
+    <project path="vendor/partner_gms" name="tieu1991/android_vendor_partner_gms" remote="github" revision="master" />
 </manifest>
 ```
 
@@ -31,8 +31,11 @@ The included APKs are:
    * GmsCore: the main component of microG, a FOSS reimplementation of the Google Play Services (requires GsfProxy and FakeStore for full functionality)
    * GsfProxy: a GmsCore proxy for legacy GCM compatibility
    * FakeStore: an empty package that mocks the existence of the Google Play Store
-   * IchnaeaNlpBackend: Network location provider using Mozilla Location Service
    * NominatimGeocoderBackend: Geocoder backend that uses OSM Nominatim service.
+ * AuroraOSS packages (binaries sourced from [here](https://gitlab.com/AuroraOSS))
+   * AuroraServices: a system / root application that integrates with the Aurora line of products
+ * NLP packages 
+   * LocalNLPBackend: Network location provider using local database of cell tower and wifi emmiters. (binarie sourced from [here](https://f-droid.org/en/packages/helium314.localbackend/))
 
 These are official unmodified prebuilt binaries, signed by the
 corresponding developers.

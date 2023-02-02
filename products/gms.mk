@@ -2,8 +2,9 @@ PRODUCT_PACKAGES += \
 	GmsCore \
 	GsfProxy \
 	FakeStore \
-	IchnaeaNlpBackend \
+	LocalNLPBackend \
 	NominatimGeocoderBackend \
 	FDroid \
 	FDroidPrivilegedExtension \
-	additional_repos.xml
+	additional_repos.xml \
+    AuroraServices
