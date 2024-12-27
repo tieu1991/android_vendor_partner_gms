@@ -46,11 +46,8 @@ The included APKs are:
    * GmsCore: the main component of microG, a FOSS reimplementation of the Google Play Services (requires GsfProxy and FakeStore for full functionality)
    * GsfProxy: a GmsCore proxy for legacy GCM compatibility
    * FakeStore: an empty package that mocks the existence of the Google Play Store
-   * NominatimGeocoderBackend: Geocoder backend that uses OSM Nominatim service.
  * AuroraOSS packages (binaries sourced from [here](https://gitlab.com/AuroraOSS))
    * AuroraServices: a system / root application that integrates with the Aurora line of products
- * NLP packages 
-   * LocalNLPBackend: Network location provider using local database of cell tower and wifi emmiters. (binarie sourced from [here](https://f-droid.org/en/packages/helium314.localbackend/))
 
 These are official unmodified prebuilt binaries, signed by the
 corresponding developers.
