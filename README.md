@@ -46,8 +46,6 @@ The included APKs are:
    * GmsCore: the main component of microG, a FOSS reimplementation of the Google Play Services (requires GsfProxy and FakeStore for full functionality)
    * GsfProxy: a GmsCore proxy for legacy GCM compatibility
    * FakeStore: an empty package that mocks the existence of the Google Play Store
- * AuroraOSS packages (binaries sourced from [here](https://gitlab.com/AuroraOSS))
-   * AuroraServices: a system / root application that integrates with the Aurora line of products
 
 These are official unmodified prebuilt binaries, signed by the
 corresponding developers.

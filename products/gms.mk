@@ -4,5 +4,4 @@ PRODUCT_PACKAGES += \
 	FakeStore \
 	FDroid \
 	FDroidPrivilegedExtension \
-	additional_repos.xml \
-	AuroraServices
+	additional_repos.xml
